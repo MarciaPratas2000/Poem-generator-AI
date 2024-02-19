@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="src/styles.css">
+
+    <title>Poem AI Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
     
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Poem AI Generator</h1>
+
+        <div class="input-section">
+            <label for="poemPrompt">Enter a prompt:</label>
+            <input type="text" id="poemPrompt" placeholder="E.g., 'Nature', 'Love', 'Dreams'">
+        </div>
+
+        <button id="generateButton">Generate Poem</button>
+
+        <div id="poem"></div>
+
+        <img id="poemImage" src="" alt="Generated Poem Image">
+    </div>
+
+    <footer>
+        This AI project was coded by
+        <a href="#" target="_blank">Márcia Pratas</a> and
+        is
+        <a
+          href="#"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="#" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+
+      <script src="src/index.js"></script>
+
 </body>
+
 </html>
