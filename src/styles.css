@@ -8,6 +8,9 @@ body {
     font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
     background-color: #f8f8f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ceddd6), to(rgba(248, 248, 248, 0.8))), url('image.jpg'); 
 }
 
 h1, h2 {
