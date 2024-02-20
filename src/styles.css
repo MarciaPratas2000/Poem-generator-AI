@@ -1,10 +1,5 @@
 /* Reset some default styles */
-body,
-h1,
-h2,
-p,
-ul,
-li {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -15,63 +10,24 @@ body {
     background-color: #f8f8f8;
 }
 
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    justify-content: space-around;
-}
-
-h1 {
-    color: #333;
+h1, h2 {
+    color: #2e352d;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px;
+    line-height: 1.5;
 }
 
-.input-section {
-    margin-bottom: 20px;
+h2 {
+    color: #0e8640;
+    font-family: "Protest Revolution", sans-serif;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
     color: #555;
+    margin: 4px;
 }
 
-#poemPrompt {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#poem {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
-}
-
-#poemImage {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 4px;
-}
 
 footer {
     margin-top: 30px;
@@ -86,4 +42,78 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+.promptContainer {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+}
+
+.container {
+    margin: 90px auto;
+    max-width: 800px;
+}
+
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+
+#poemPrompt {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 2px;
+    width: 72%;
+}
+
+.button {
+    display: block;
+    background: linear-gradient(to right, #2c3e50, #0e8640);
+    color: #fff;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+    border: 1px solid rgb(119, 130, 176);
+    margin: 10px 2px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #27ae60, #2c3e50);
+}
+
+#poem { 
+font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid  #0e8640;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  max-width: 700px;
+  margin: 40px auto;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#poemImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+
+.formSubmit {
+    display: flex;
+    justify-content: space-between;
 }
