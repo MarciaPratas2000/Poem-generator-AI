@@ -94,7 +94,7 @@ a:hover {
     background: linear-gradient(to right, #27ae60, #2c3e50);
 }
 
-#poem { 
+.poem{ 
 font-size: 16px;
   background-color: #fff;
   padding: 20px;
@@ -105,7 +105,6 @@ font-size: 16px;
   margin: 40px auto;
   opacity: 0.9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 #poemImage {
