@@ -14,22 +14,25 @@
 </head>
 
 <body>
+<header>
+    <h1>Poem AI Generator</h1>
+  </header>
+  <main>
 
     <div class="container">
-        <h1>Poem AI Generator</h1>
-
+<form action="">
         <div class="input-section">
-            <label for="poemPrompt">Enter a prompt:</label>
-            <input type="text" id="poemPrompt" placeholder="E.g., 'Nature', 'Love', 'Dreams'">
+            <label for="poemPrompt">Enter a topic:</label>
+            <input type="text" id="poemPrompt" placeholder="E.g., 'Nature', 'Love', 'Dreams'" autofocus required autocomplete="off">
+            <input type="submit" id="submit" class="button" value="Generate Poem" >
         </div>
-
-        <button id="generateButton">Generate Poem</button>
-
-        <div id="poem"></div>
-
-        <img id="poemImage" src="" alt="Generated Poem Image">
+      </form>
     </div>
 
+        <div id="poem"> poem will go here</div>
+
+        <img id="poemImage" src="" alt="Generated Poem Image">
+      </main>
     <footer>
         This AI project was coded by
         <a href="https://github.com/MarciaPratas2000" target="_blank">Márcia Pratas</a> and
