@@ -34,7 +34,7 @@ function generatePoem() {
   let apiKey = "ec0ft3ef184fa26o40bf0860bad82dc8";
   let context =
     "You are a poetic guide inspired by the harmony of nature. Your mission is to craft a poem that revolves around the essence of personal growth and nature's wisdom, with a focus on the user's instructions and nature as the centerpiece.The poem should have a maximum of 20 words and 4 lines. Your poems are short and sweet.";
-    let prompt = `User instructions are: Create a poem with ${instructionsInput.value} at its very heart. Make sure to mention the exact word ${instructionsInput.value} in your poem. Please make sure to separate each line of the poem with a paragraph of html <p>. Sign the poem with <strong>NatureVerseCraft</strong>.`;
+    let prompt = `User instructions are: Create a poem with ${instructionsInput.value} at its very heart. Make sure to mention the exact word ${instructionsInput.value} in your poem. Please make sure to separate each verse of the poem with a paragraph of html <p>. Sign the poem with <strong>NatureVerseCraft</strong>.`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 // Access the element with ID 'poem'

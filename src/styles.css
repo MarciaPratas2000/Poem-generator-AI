@@ -20,7 +20,7 @@ h1, h2 {
     line-height: 1.5;
 }
 
-h2 {
+h2 , .poem strong {
     color: #0e8640;
     font-family: "Protest Revolution", sans-serif;
 }
@@ -119,3 +119,4 @@ font-size: 16px;
     display: flex;
     justify-content: space-between;
 }
+
