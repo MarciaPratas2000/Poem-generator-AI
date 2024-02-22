@@ -13,7 +13,7 @@ function generatePoem() {
 
   // Add a class to the element
   poemElement.classList.add('poem');
-  poemElement.innerHTML = `<div class="generating">⏳ Generating an inspiring poem about the topic ${instructionsInput.value}</div>`;
+  poemElement.innerHTML = `<div class="generating">⏳ Generating an inspiring poem about the topic : ${instructionsInput.value} .</div>`;
 
   // Wrap the axios request inside the setTimeout function
   setTimeout(() => {
